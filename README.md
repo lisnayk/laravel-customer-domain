@@ -1,8 +1,11 @@
 # Laravel customer domain
 ## How to use
 First of all clone and install dependencies.
+
 Copy and paste example config to .env file
+
 Install and configure local Wirecard DNS Server or add several records to you local host file
+
 ```shell
 # other host files records ...
 127.0.0.1 multi-domain.loc user1.multi-domain.loc user2.multi-domain.loc
