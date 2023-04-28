@@ -1,3 +1,18 @@
+# Laravel customer domain
+## How to use
+First of all clone and install dependencies.
+Copy and paste example config to .env file
+Install and configure local Wirecard DNS Server or add several records to you local host file
+```shell
+# other host files records ...
+127.0.0.1 multi-domain.loc user1.multi-domain.loc user2.multi-domain.loc
+```
+Next run the application and register new users with names user1, user2, ... .
+
+Each registered user will redirect to own domain after login.  
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
