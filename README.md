@@ -4,7 +4,7 @@ First of all clone and install dependencies.
 
 Copy and paste example config to .env file
 
-Install and configure local Wirecard DNS Server or add several records to you local host file
+Install and configure local Wildcard DNS Server or add several records to you local host file
 
 ```shell
 # other host files records ...
